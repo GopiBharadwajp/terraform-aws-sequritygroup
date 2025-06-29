@@ -1,25 +1,25 @@
-varible "sg_name"{
+variable "sg_name"{
     type = string
     default = ""
 }
 
-varible "sg_description"{
+variable "sg_description"{
     type = string
 }
 
-varible "vpc_id"{
+variable "vpc_id"{
     type = string
 }
 
-varible "project" {
+variable "project" {
 type =string
 }
 
-varible "environment" {
+variable "environment" {
     type =string
 }
 
-varible "sg_tags" {
+variable "sg_tags" {
     type = map(string)
     default= {}
 }
